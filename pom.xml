@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mserver.db</groupId>
-	<artifactId>mserverDbSupport</artifactId>
-	<version>0.1.0-${project.environment}</version>
+	<artifactId>fsDbSupport</artifactId>
+	<version>0.0.1-${project.environment}</version>
 	<packaging>jar</packaging>
 
-	<name>logsData</name>
+	<name>fsDbSupport</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
