@@ -143,8 +143,18 @@
 			<!-- <property name="useActualColumnNames" value="true"/> -->
 			<generatedKey column="id" sqlStatement="MySql" identity="true" />
 		</table>
-
-
+		<table tableName="fs_citizen_recharge_product" domainObjectName="FsCitizenRechargeProduct">
+			<!-- <property name="useActualColumnNames" value="true"/> -->
+			<generatedKey column="id" sqlStatement="MySql" identity="true" />
+		</table>
+		<table tableName="fs_citizen_wx_recharge_record" domainObjectName="FsCitizenWxRechargeRecord">
+			<!-- <property name="useActualColumnNames" value="true"/> -->
+			<generatedKey column="id" sqlStatement="MySql" identity="true" />
+		</table>
+		<table tableName="fs_citizen_wx_moneychange_record" domainObjectName="FsCitizenWxNoneychangeRecord">
+			<!-- <property name="useActualColumnNames" value="true"/> -->
+			<generatedKey column="id" sqlStatement="MySql" identity="true" />
+		</table>
 
 </context>
 </generatorConfiguration>
