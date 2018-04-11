@@ -159,6 +159,7 @@
 		<table tableName="m_file" domainObjectName="MFile">
  			<generatedKey column="id" sqlStatement="MySql" identity="true" />
 		</table>
+		 
 		
 </context>
 </generatorConfiguration>
